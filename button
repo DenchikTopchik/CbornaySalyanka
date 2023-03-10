@@ -1,0 +1,19 @@
+from tkinter import *
+from tkinter import ttk
+from random import randint
+
+clicks = 0
+
+def click_button():
+    global clicks
+    clicks += 1
+    btn["text"] = f"Clicks: {clicks}"
+
+root = Tk()
+root.title('mmm')
+root.geometry("250x200")
+
+btn = ttk.Button(text='button', command=click_button)
+btn.pack()
+
+root.mainloop()
