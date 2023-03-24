@@ -1,0 +1,31 @@
+from random import randint
+import time
+hp = 100
+speed = 0
+distance = 0
+totalDistance = 400
+rock = 1
+yeti = 2
+niger = 3
+while True:
+    if hp <= 0:
+        print("потрачено")
+        break
+    if distance >= totalDistance:
+        print("ЛЕГЧАЙШЕ")
+        break
+    speed = speed + 1
+    print(speed, " скорость")
+    distance = distance + speed
+    print(distance, " дистанция")
+    time.sleep(0.5)
+    chance = randint(1,20)
+    if chance == yeti:
+        hp = hp - 10
+        print("Это все ЙЕТИ и хп ", hp)
+    if chance == rock:
+        hp = hp - 10
+        print("Это все СКАЛА и хп  ", hp)
+    if chance == niger:
+        hp = hp - 20
+        print("niger niger niger and hp ", hp)
