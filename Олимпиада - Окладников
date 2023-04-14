@@ -1,0 +1,37 @@
+# naidinieMONetI = 20
+# cozdano = 10 * 365
+# vorona = 53 * 3
+# budet = naidinieMONetI + cozdano - vorona
+# print(budet)
+
+# listANEKDOT = ["- Что будет, если клюква наденет штаны? – Брюква!", "- Что скала зелёная виноградина синей? – Дыши! Дыши!", 'Что сказал 0 цифре 8? – Привет, ребята!', 'Что такое сидит на потолке и хохочет? – Мухахохотуха!']
+# print("сколько тебе лет?")
+# let = (int(input()))
+# if let == 10:
+#     print(listANEKDOT[0])
+# if let == 11:
+#     print(listANEKDOT[1])
+# if let == 12:
+#     print(listANEKDOT[2])
+# if let == 13:
+#     print(listANEKDOT[3])
+# else:
+#     print('Ошибка')
+
+# listPokypok = ["Паучьи лапки", "жабий палец", "глаз тритона", "крыло летучей мыши", "жир слизня", "кожа змеи"]
+# dopList = ["мандрагора", "болиголов","болотный газ"]
+# for i in range(0,2):
+#     a = listPokypok.append()
+
+# nachalVES = 60
+# for i in range(0,15):
+#     i = i + 1
+#     ves = nachalVES + i
+#     ves1 = ves * 0.165
+#     print(ves1)
+
+# def vremia(banki):
+#     for i in range(52):
+#         banki+=2
+#     return banki
+# print(vremia(0))
