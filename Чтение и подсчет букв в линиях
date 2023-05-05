@@ -1,0 +1,16 @@
+file = open('./text/dddd.txt', 'r', encoding="UTF=8")
+line = file.readlines()
+count = 0
+for i in range(len(line)):
+    for f in range(len(line[i])):
+        if (line[i][f] == "a" or line[i][f] == "A"):
+            count+=1
+print(count)
+
+count = 0
+for elem in line:
+    print(elem)
+    for elem2 in elem:
+        if elem2 == "a":
+            count+=1
+print(count)
