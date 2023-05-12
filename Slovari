@@ -1,0 +1,37 @@
+mass = ['sldkj','jjpodsfij','jdf,']
+print(mass[0])
+
+slovar = {
+    'name':'akaky',
+    'weight':89,
+}
+print(slovar['name'])
+
+for key, value in slovar.items():
+    print(key, ':', value)
+
+kNiga = {
+    'kniga1':100,
+    'kniga2':454,
+    'kniga3':55,
+}
+aa = 0
+for key, value in kNiga.items():
+    aa += value
+print(aa)
+
+myPrizi = {
+    'number 26': 70,
+    'number 9': 20 * 2,
+    'number 8': 20 * 2,
+    'number 3': 20 *2,
+    'number 6': 20 * 2,
+    'number 2': 20,
+    'number 5': 20,
+    'number 7': 20,
+}
+
+ab = 0
+for key, value in myPrizi.items():
+    ab += value
+print(ab)
